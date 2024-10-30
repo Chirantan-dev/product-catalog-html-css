@@ -1,0 +1,255 @@
+:root{
+--Red: hsl(14, 86%, 42%);
+--Green: hsl(159, 69%, 38%);
+--Rose50: hsl(20, 50%, 98%);
+--Rose100: hsl(13, 31%, 94%);
+--Rose300: #c9aea6;
+--Rose400: hsl(7, 20%, 60%);
+--Rose500: hsl(12, 20%, 44%);
+--Rose900: hsl(14, 65%, 9%);
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: var(--Rose100)
+}
+section .container{
+    display: flex;
+    padding: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+section.deserts .container .left{
+    width: 70%;
+    margin-top: 3rem;
+}
+section.deserts .container .right{
+    width: 30%;
+    background: var(--Rose50);
+    height: 700px;
+    margin-top: 3rem;
+    border-radius: 20px;
+}
+section .container .d{
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+section .card img{
+    /* border:2px solid black; */
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    /* position: absolute; */
+}
+
+section.deserts .wrapper .btn-img{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 50px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    border: 1px solid var(--Red);
+    position: relative;
+    top: -3rem;
+    right: 5rem;
+    color: var(--Red);
+    font-size: 1.5rem;
+}
+section.deserts .wrapper .btn-img:hover{
+    background: var(--Red);
+    color: #ffffff;
+    transition-delay: 0.3s;
+}
+
+
+section.deserts .container .right .wrapper1{
+    padding: 2rem;
+}
+section.deserts .container .right .a{
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: var(--Red);
+    text-align:start;
+}
+
+section.deserts .container .right .item{
+    font-family: "Red Hat Text", sans-serif;
+    color: var(--Rose900);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+section.deserts .container .right .price{
+    display: flex;
+
+}
+section.deserts .container .right .price .x{
+    font-family: "Red Hat Text", sans-serif;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--Red);
+    font-weight: 500;
+}
+section.deserts .container .right .price .price1{
+    font-family: "Red Hat Text", sans-serif;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--Rose400);
+    font-weight: 500;
+}
+section.deserts .container .right .price .price2{
+    font-family: "Red Hat Text", sans-serif;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--Rose500);
+    font-weight: 500;
+}
+section.deserts .container .right .styled-line {
+    border: none;          /* Remove default border */
+    border-top: 2px solid #c9aea6; /* Add a solid top border for the line */
+    width: 96%;            /* Adjust width as desired */
+    margin: 20px auto;     /* Center align and add margin */
+}
+section.deserts .container .right .icon{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+    margin-left: 15rem;
+    color:var(--Rose400);
+}
+section.deserts .container .right .price .icon:hover{
+    color: var(--Rose900);
+    cursor: pointer;
+}
+section.deserts .container .right .order{
+    display: flex;
+    justify-content: space-between;
+}
+section.deserts .container .right .order .order-total{
+    font-family: "Red Hat Text", sans-serif;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--Rose400);
+    font-weight: 500;
+} 
+section.deserts .container .right .order .total{
+    font-family: "Red Hat Text", sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: var(--Rose900);
+    font-weight: 800;
+}
+section.deserts .container .right .wrapper1 .carbon{
+    width: 28rem;
+    height: 4rem;
+    background: var(--Rose100) ;
+    text-align: center;
+    margin-right: 1.8rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section.deserts .container .right .wrapper1 .carbon-line{
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.2rem;
+    color: var(--Rose900);
+    
+    /* margin-left: 4rem; */
+    
+}
+section.deserts .container .right .wrapper1 .carbon-line span{
+    font-weight: 700;
+}
+section.deserts .container .right .wrapper1 .carbon .icon2{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+    color:var(--Green);
+}
+section.deserts .container .right .wrapper1 .btn{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 50px;
+    /* margin-left: 8.5rem;
+    margin-top: 1rem; */
+    background: var(--Red);
+    border: none;
+    position: relative;
+    top: 1rem;
+    left: 8rem;
+    color: azure;
+    font-size: 1rem;
+    cursor: pointer;
+}
+section.deserts .container .right .wrapper1 .btn:hover{
+    background: var(--Rose900);
+}
+section.deserts .container .left .card .category{
+    font-family: "Red Hat Text", sans-serif;
+    color: var(--Rose400);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -2rem;
+}
+section.deserts .container .left .card .name{
+    font-family: "Red Hat Text", sans-serif;
+    color: var(--Rose900);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2px;
+}
+section.deserts .container .left .card .pricing{
+    font-family: "Red Hat Text", sans-serif;
+    color: var(--Red);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-bottom: 2rem;
+}
+section.deserts .container .left .card .add-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    z-index: 1;
+    cursor: pointer;
+}
+section.deserts .container .left .card .remove-icon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 23%;
+    right: 5%;
+    z-index: 1;
+    cursor: pointer;
+}
+section.deserts .container .left .card .name:hover{
+    color: var(--Red);
+    cursor: pointer;
+}
